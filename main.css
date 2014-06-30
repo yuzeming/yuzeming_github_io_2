@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	text-decoration:none; 
+}
+
+ul {
+	padding-left: 20px;
+}
+
+body {
+	background:url(img/bg.png) fixed;
+	font: 16px/1.7 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+}
+
+#wrapper {
+	background:#505050;
+	width: 100%;
+	position: fixed;
+	top: 0;
+    z-index: 19999;
+    box-shadow: 2px 2px 3px #aaaaaa;
+}
+
+#top {
+	margin:auto;
+	height:30px;
+	max-width:910px;
+	min-width: 500px;
+}
+
+#logo {
+	float:left;
+	height:30px; 
+}
+
+#logo h1 {
+	font-size:10px; 
+}
+
+#logo h1 a {
+	color:white;
+	font-family:comic Sans MS,serif;
+	font-size:18px;
+	height:30px; 
+}
+
+#menu {
+	float:right;
+	height:30px;
+	color:#ccc; 
+}
+#menu ul {
+	margin-top:5px;
+	float:right;
+}
+
+#menu ul li {
+	float:left;
+	height:20px;
+	margin:0 5px 0 0;
+	display: inline;
+	line-height:20px; 
+}
+
+#menu ul li a {
+	display: block;
+	padding:0 10px 0 10px;
+	color:#ccc;
+}
+
+#menu ul li a:hover{
+	color:#fff;
+}
+
+#content {
+	max-width:930px;
+	min-width: 500px;
+	margin:auto;
+	padding-top:40px;
+}
+
+.box {
+	background-color: rgba(255,255,255,0.8);
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	box-shadow: 2px 2px 3px #aaaaaa;
+	border-radius: 5px;
+}
+
+div.post{
+	
+	width: 600px;
+
+	float: left;
+}
+
+div.right{
+	width: 200px;
+	margin-left: 660px;
+
+}
+
+div.main{
+	width: 550px;
+	margin: auto;
+	margin-top:80px;
+}
+
+div.card {
+	width: 500px;
+	height: 200px;
+	margin: auto;
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color:white;
+	box-shadow: 2px 2px 3px #aaaaaa;
+	border-radius: 5px;
+	
+}
+
+div.card h1.title {
+	margin-left: 20px;
+	line-height: 20px;
+	margin: 10px;
+}
+
+div.card p {
+	position: relative;
+	font-size: 90%;
+	color: #aaaaaa;
+	margin: 10px;
+}
+
+div.card ul {
+	margin: 10px 0 10px 0;
+}
+
+div.card div.left{
+	width: 200px;
+	float: left;
+}
+
+div.card div.right{
+	float: left;
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+div.card img.avatar{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
