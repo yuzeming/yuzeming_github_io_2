@@ -15,17 +15,17 @@ body {
 }
 
 #wrapper {
-	background:#505050;
 	width: 100%;
 	position: fixed;
 	top: 0;
     z-index: 19999;
-    box-shadow: 2px 2px 3px #aaaaaa;
+    box-shadow: 2px 2px 3px #000000;
+    background:-webkit-linear-gradient(top,#eee 0%,#ccc 100%);
 }
 
 #top {
 	margin:auto;
-	height:30px;
+	height:24px;
 	max-width:910px;
 	min-width: 500px;
 }
@@ -40,10 +40,10 @@ body {
 }
 
 #logo h1 a {
-	color:white;
-	font-family:comic Sans MS,serif;
 	font-size:18px;
 	height:30px; 
+	text-shadow: rgba(255,255,255,0.75) 0 1px 0;
+	color: #141414;
 }
 
 #menu {
@@ -62,16 +62,17 @@ body {
 	margin:0 5px 0 0;
 	display: inline;
 	line-height:20px; 
+	text-shadow: rgba(255,255,255,0.75) 0 1px 0;
 }
 
 #menu ul li a {
 	display: block;
 	padding:0 10px 0 10px;
-	color:#ccc;
+	color:#141414;
 }
 
 #menu ul li a:hover{
-	color:#fff;
+	color:#141414;
 }
 
 #content {
@@ -82,19 +83,21 @@ body {
 }
 
 .box {
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	margin-left: 20px;
-	box-shadow: 2px 2px 3px #aaaaaa;
+	box-shadow: 2px 2px 3px #000000;
 	border-radius: 5px;
 }
 
-div.post{
-	
-	width: 600px;
+h1.title{
+	text-shadow: rgba(255,255,255,0.75) 0 1px 0;
+}
 
+div.post{
+	width: 600px;
 	float: left;
 }
 
@@ -115,24 +118,22 @@ div.card {
 	height: 200px;
 	margin: auto;
 	padding: 10px 10px 20px 10px;
-	border: 1px solid #BFBFBF;
 	background-color:white;
-	box-shadow: 2px 2px 3px #aaaaaa;
+	box-shadow: 3px 3px 5px rgba(100,100,100,0.7);
 	border-radius: 5px;
-	
 }
 
-div.card h1.title {
+h1.white {
 	margin-left: 20px;
 	line-height: 20px;
 	margin: 10px;
+	color: #ffffff
 }
 
 div.card p {
 	position: relative;
 	font-size: 90%;
 	color: #aaaaaa;
-	margin: 10px;
 }
 
 div.card ul {
@@ -148,7 +149,8 @@ div.card div.right{
 	float: left;
 	margin: auto;
 	padding-left: 20px;
-	padding-top: 10px;
+	padding-top: 5px;
+	width: 240px;
 }
 
 div.card img.avatar{
@@ -157,3 +159,22 @@ div.card img.avatar{
 	margin: auto;
 }
 
+ul.list{
+	list-style: lower-latin;
+	margin:5px 40px 20px 0;
+}
+
+span.date{
+	color: #aaa;
+	float: right;
+}
+
+span.back {
+	float: right;
+	margin: 20px;
+
+}
+
+span.back a{
+	color: #aaa;
+}
