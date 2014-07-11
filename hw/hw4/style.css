@@ -1,0 +1,121 @@
+body {
+	
+}
+
+div.slider{
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+div.slider-box{
+	position: absolute;
+	top:0;
+	left: 0;
+	transition: -webkit-transform 0.5s ease-in-out;
+	display: none;
+}
+
+div.slider-box img {
+	width: 100%;
+}
+
+div.slider-box div {
+	z-index: 20;
+	color: #ffffff;
+	position: absolute;
+	background:rgba(0,0,0,0.7);
+	bottom: 0px;
+	width: 890px;
+	height: 50px;
+	padding: 5px;
+}
+
+div.slider-box div:hover{
+	background:rgba(0,0,0,0.0);
+	color:rgba(0,0,0,0.0);
+}
+
+div.left{
+	position: absolute;
+	cursor:url("cursor_left.cur"),auto;
+	z-index: 10;
+	width: 50%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+div.right{
+	position: absolute;
+	cursor:url("cursor_right.cur"),auto;
+	z-index: 10;
+	width: 50%;
+	height: 100%;
+	bottom: 0;
+	right: 0;
+}
+
+div.play{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 99;
+	background: #fff;
+}
+
+div.comments{
+	width: 900px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+div.tie{
+	width: 880px;
+	background: #ccc;
+	margin: 5px;
+	padding: 5px;
+}
+
+div.tie:hover{
+	background: #aaa;
+}
+
+div.author{
+	color: #1e50a2;
+}
+
+div.body{
+	line-height: 21px;
+	margin-bottom: 3px;
+	zoom: 1;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+div.pg {
+	display: inline;
+}
+
+div.pg div{
+	width: 10px;
+	height: 10px;
+	margin:5px;
+	display: inline;
+}
+
+div.pgup {
+	display: inline;
+}
+
+div.pgdw {
+	display: inline;
+}
+
+div.pgnow {
+	background: #ccc;
+}
